@@ -18,7 +18,6 @@ try:
                 break
             update = date + update
             fileshow['list_to_do'].append(update)
-       # print(fileshow['list_to_do'])
     
     elif sys.argv[1] == 'show':
         print('')

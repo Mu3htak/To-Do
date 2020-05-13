@@ -21,7 +21,6 @@ try:
     
     elif sys.argv[1] == 'show':
         print('')
-        #print("Things to Do".center(46, '-'))
         print("No   Registered \t Things To Do")
         print(" ".rjust(50,'-'))
         for i in range(len(fileshow['list_to_do'])):

@@ -1,6 +1,5 @@
 # To-Do
-To-Do creates a list of things to do and  stores the data in .dat file. 
-Program runs from command line arguments.
+To-Do creates a list of things to do and  stores the data in .dat file.
 
 Usage: python To_do.py [-h] [--show] [--update] [--new] [--remove]
 

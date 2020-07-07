@@ -57,9 +57,7 @@ elif args.new:
         add = date + add
         list_to_do += [add]
         fileshow['list_to_do'] = list_to_do
-    else:
-        print("Invalid argument!")
-        print("Usage: python To_do.py [show] [update] [new] [remove]")
+        
     fileshow.sync()
     fileshow.close()
 
